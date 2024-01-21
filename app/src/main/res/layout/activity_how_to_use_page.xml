@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9EF7A"
+    android:orientation="vertical"
+    tools:context=".HowToUsePage">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:fontFamily="sans-serif-condensed"
+        android:text="How To Use The App?"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150px"
+        android:fontFamily="sans-serif-medium"
+        android:padding="150px"
+        android:text="1)Plug the USB camera (preferably endoscopic camera) into your Android phone.\n\n 2) Position the endoscopic camera on the teeth.\n\n3) Click the &quot;Capture&quot; button to capture the image.\n\n5) Click the &quot;Run Inference&quot; button to allow the app to classify the teeth condition. "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="100px"
+        android:layout_marginRight="100px"
+        android:backgroundTint="#EFCEE7"
+        android:text="Continue"
+        android:textColor="#000000"
+        app:iconTint="#020202" />
+</LinearLayout>
